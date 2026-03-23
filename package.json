@@ -1,0 +1,16 @@
+{
+  "name": "discord-status-bot",
+  "version": "1.0.0",
+  "description": "Monitors and displays the status of Discord bots in your server.",
+  "main": "bil.js",
+  "scripts": {
+    "start": "node bil.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1"
+  },
+  "engines": {
+    "node": ">=16.11.0"
+  }
+}
