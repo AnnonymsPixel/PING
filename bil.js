@@ -142,7 +142,7 @@ async function restoreLiveMessage() {
 // ── Ready ─────────────────────────────────────────────────────
 client.once("clientReady", async () => {
   console.log(`[STATUS BOT] Logged in as ${client.user.tag}`);
-  await client.user.setActivity("your bots 👀", { type: 3 });
+  await client.user.setActivity("Watching over Shiro's Bot's", { type: 3 });
   await restoreLiveMessage();
   registerWelcome(client);
 });
